@@ -1,0 +1,21 @@
+{
+  "name": "serverless-express",
+  "version": "1.0.1",
+  "description": "Backend for GameJamTech Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Igal Tsesis",
+  "license": "ISC",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0"
+  }
+}
